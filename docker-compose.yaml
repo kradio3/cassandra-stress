@@ -5,3 +5,4 @@ services:
     volumes:
       - ./etc/cassandra:/etc/cassandra
     mem_limit: 2G
+    cpuset: 0,1
