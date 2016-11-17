@@ -1,7 +1,7 @@
 # Docker composite for cassandra stress testing on 2GB RAM
 Composite uses official cassandra image
 
-## Change MAX_HEAP_SPACE
+## Change MAX_HEAP_SIZE
 ```sh
 #look at etc/cassandra/cassandra-env.sh
 cat etc/cassandra/cassandra-env.sh | grep MAX_HEAP_SIZE
