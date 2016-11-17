@@ -1,6 +1,6 @@
 # Docker composite for cassandra stress testing
 
-2GB RAM x 2 CPU core
+2GB RAM x 2 CPU cores
 
 Composite uses official cassandra image
 
