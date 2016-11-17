@@ -1,0 +1,7 @@
+version: '2'
+services:
+  cassandra:
+    image: cassandra
+    volumes:
+      - ./etc/cassandra:/etc/cassandra
+    mem_limit: 2G
